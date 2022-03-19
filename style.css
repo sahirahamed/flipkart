@@ -1,0 +1,400 @@
+.parent{
+
+height: 100%;
+width:100%;
+background-color:white;
+}
+.header{
+
+    height: 60px;
+    width:100%;
+    background-color: rgb(62, 119, 226);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+
+}
+.flip-logo{
+margin-top: 10px;
+margin-left: 170px;
+
+}
+.search-box{
+
+height: 35px;
+width:550px;
+background-color: white;
+margin-top: 10px;
+margin-left: 10px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+color: grey;
+}
+.login-box{
+    height: 30px;
+    width:130px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    color:rgb(14, 134, 214);
+    font-weight: bolder;
+font-size: 18px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 13px;
+
+}
+.search-icon{
+
+margin-left: 270px;
+
+}
+.more{
+
+color: white;
+margin-left: 70px;
+font-weight: bolder;
+margin-top: 15px;
+font-size: 20px;
+}
+.blue-downarrow{
+margin-top: 12px;
+
+
+}
+.carts{
+margin-top: -4px;
+color: white;
+margin-left: 22px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}
+.topic-header{
+
+height: 40px;
+width:100%;
+
+display: flex;
+flex-direction: row;
+box-shadow: 2px 2px 2px 2px grey;
+background-color:white;
+justify-content: flex-start;
+align-items: center;
+font-size:20px;
+}
+.topic-header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+align-items: center;
+list-style: none;
+text-decoration: none;
+}
+.topic-header ul li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+}
+a:hover{
+
+    color:blue;
+}
+.topics{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+margin-left: 30px;
+}
+.deals{
+height: 60px;
+width:100%;
+background-color: white;
+font-size: 20px;
+font-weight: bolder;
+margin-top: 20px;
+box-shadow:2px 2px 2px 2px grey;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+position: relative;
+}
+.day{
+margin-left: 20px;
+font-size: 22px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.days{
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.shop{
+
+    margin-left: 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2px;
+    color: gray;
+}
+.grey{
+
+color: grey;
+font-size: 16px;
+
+}
+.flip-deals{
+height:250px;
+width:100%;
+display: flex;
+flex-direction: row;
+color: black;
+margin-top: 5px;
+background-color: white;
+box-shadow: 3px 3px 3px 3x grey;
+}
+.flip-orders{
+height: 200px;
+width:200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: black;
+line-height: 2em;
+margin-top: 20px;
+
+
+}
+
+.flip-click{
+
+height: 140px;
+width:140px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+transition:all 2s liner;
+
+}
+.flip-click:hover{
+transform: scale(1.1);
+
+}
+.top{
+
+margin-top: 10px;
+
+}
+.fashion{
+height: 60px;
+width: 100%;
+margin-top: 10px;
+box-shadow: 2px 2px 2px 2px grey;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+position: relative;
+
+}
+.view{
+
+height: 35px;
+width:100px;
+background-color: blue;
+color: white;
+font-weight: bolder;
+display: flex;
+font-size: 14px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+left:1220px;
+
+}
+.views{
+
+    height: 35px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:1220px;
+    
+
+}
+.last{
+
+height: 250px;
+width:100%;
+background-color: white;
+color: black;
+font-size: 12px;
+box-shadow: 2px 2px 2px 2px grey;
+
+}
+.final{
+
+display: flex;
+flex-direction: column;
+color:black;
+margin-top: 20px;
+margin-left: 40px;
+
+
+}
+.blue{
+
+color: blue;
+
+}
+.best{
+
+    color:grey;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.black{
+
+height: 300px;
+width: 100%;
+background-color: #222222;
+display: flex;
+flex-direction: row;
+
+}
+.register{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color:white;
+margin-top: 50px;
+margin-left: 30px;
+font-size: 15px;
+}
+.address{
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: white;
+margin-top: 50px;
+margin-left: 100px;
+border-left: 1px solid white;
+padding-left: 20px;
+font-size: 15px;
+}
+.register a{
+text-decoration: none;
+color:white;
+
+}
+.register a:hover{
+text-decoration: underline;
+
+}
+.address a{
+    text-decoration: none;
+    color:white;
+
+}
+.address a:hover{
+    text-decoration: underline;
+
+}
+.location a{
+    text-decoration: none;
+    color:white;
+
+    
+}
+.location a:hover{
+
+    text-decoration: underline;
+}
+.location{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;   
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+.heads{
+
+color:#878787;
+
+}
+.footer{
+background-color: #222222;
+height: 100px;
+width: 100%;
+border-top:1px solid white ;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+}
+.yellow-pic{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 50px;
+
+}
+.cards{
+display: flex;
+flex-direction: row;
+margin-left: 50px;
+
+}
+.card{
+
+height: 25px;
+width: 40px;
+
+}
